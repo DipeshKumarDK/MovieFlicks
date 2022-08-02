@@ -10,7 +10,7 @@ const dispatch = useDispatch();
   console.log(poster)
     return (
       // <div>
-      <Link className={`p-1 mb-3 hover:animate-pulse transition ease-in-out hover:-translate-y-1 hover:scale-110 text-white bg-black border-2 hover:text-black border-black hover:bg-white hover:border-white ml-2 mr-2 mt-1 rounded`} to="/info" onClick={()=>dispatch(getTitle(title))}> 
+      <Link className={`p-1 mb-3 ${yes==="yes"?"hidden":""} hover:animate-pulse transition ease-in-out hover:-translate-y-1 hover:scale-110 text-white bg-black border-2 hover:text-black border-black hover:bg-white hover:border-white ml-2 mr-2 mt-1 rounded`} to="/info" onClick={()=>dispatch(getTitle(title))}> 
       <div className="" >
       <img
           src={
