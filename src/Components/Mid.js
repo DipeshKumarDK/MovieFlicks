@@ -45,7 +45,7 @@ function Mid(props) {
             />
           ))
         ) : (
-          <Card/>
+          <Card yes=""yes/>
         )}
         </div>
         <div className={`${hide==="Y"?"hidden":""} pt-2 grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 w-full items-baseline`}>
@@ -61,7 +61,7 @@ function Mid(props) {
             />
           ))
         ) : (
-          <Card/>
+          <Card yes="yes"/>
         )}
         </div>
     </div>
